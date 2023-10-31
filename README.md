@@ -4,4 +4,4 @@ idées à développer : filtrer les donénes et définir les critères qui perme
 On va calculer un pourcentage de ressemblance en ce basant sur la Terre 
 
 Deuxième idée : utliser les planètes définis comme habitables sur le site de la NASA et comparer aux résultats obtenus en utlisant les mêmes critères mais également avec d'autres
-but finale: réduire au maximum le nombre de planètes en utilisant des critères d'ordre scientifique 
+but final: réduire au maximum le nombre de planètes en utilisant des critères d'ordre scientifique 
