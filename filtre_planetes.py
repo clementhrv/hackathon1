@@ -41,6 +41,11 @@ df1.drop(axis=1 , labels= c2_i, inplace = True)
 print(df1)
 print(df1.columns)
 
+#pour aboutir à la fin du projet il faut récupérer les bons noms dans df1.columns pour les colonnes voulue
+#pour ensuite appliquer les filtres puis ensuite calculer les scores
+
+
+
 
 """
 #suppression des lignes sans données utiles
