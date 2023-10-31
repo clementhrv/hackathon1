@@ -30,4 +30,7 @@ df1 = df1[df1['Equilibrium Temperature [K]'].notna()]
 #filtre pour la température
 df1 = df1[df1['Equilibrium Temperature [K]']<353]
 df1 = df1[df1['Equilibrium Temperature [K]']>0]
+#df1 = df1[293<df1['Equilibrium Temperature [K]']<353]
+#df = df[0.1>df['Eccentricity']>0.067]
+#df =df[10>df ['Planet Mass Mass*sin(i)']>1]
 df1['temp_prc'] = df1['']"""
