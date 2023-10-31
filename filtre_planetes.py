@@ -43,11 +43,20 @@ df1.drop(axis=1 , labels= c2_i, inplace = True)
 print(df1)
 print(df1.columns)
 
+#filtre la température et l'ensoleillement, il faut des valeurs pour trier
 df1 = df1[df1['pl_eqt'].notna()]
-print(df1['pl_eqt'])
 df1 = df1[df1['pl_insol'].notna()]
+
+#ne garde que les planètes avec une température en 0 et 80 degrés celcius
+df1 = df1[(df1['pl_eqt']<353)]
+df1 = df1[(df1['pl_eqt']>273)]
+
+
+#df1 = df1[(df1['pl_orbeccen']>0.067)]
+#df1 = df1[(df1['pl_eqt']<0.1)]
+#Ces filtres ne sont pas ajustés car en appliquant les deux ils ne reste aucune planètes correspondant auxc critères
 print(df1)
-print(df1["pl_insol"])
+#df1 = df1[0.1>df1['pl_orbeccen']>0.067]
 #pour aboutir à la fin du projet il faut récupérer les bons noms dans df1.columns pour les colonnes voulue
 #pour ensuite appliquer les filtres puis ensuite calculer les scores
 
