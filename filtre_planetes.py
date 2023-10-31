@@ -36,11 +36,18 @@ c2_i = ['pl_orbperlim',
        'pl_insollim',  'pl_eqtlim', 'st_tefflim', 'st_radlim',
         'st_masslim',  'st_metlim', 'st_logglim', ]
 
+df1.set_index('pl_name', inplace = True)
+
 df1.drop(axis=1 , labels= columns1_inutiles, inplace = True)
 df1.drop(axis=1 , labels= c2_i, inplace = True)
 print(df1)
 print(df1.columns)
 
+df1 = df1[df1['pl_eqt'].notna()]
+print(df1['pl_eqt'])
+df1 = df1[df1['pl_insol'].notna()]
+print(df1)
+print(df1["pl_insol"])
 #pour aboutir à la fin du projet il faut récupérer les bons noms dans df1.columns pour les colonnes voulue
 #pour ensuite appliquer les filtres puis ensuite calculer les scores
 
