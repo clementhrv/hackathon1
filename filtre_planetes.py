@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np 
 
 #importation de la data avec toutes les données
-df1 = pd.read_csv('toute_planetes.csv', skiprows=125)
+df1 = pd.read_csv('git-sandbox/PS_2023.10.31_08.27.48.csv.csv', skiprows=96)
 
 #imoortation de la data avec les planètes habitables
 df2 = pd.read_csv('cumulative_2023.10.31_07.12.57.csv', skiprows=90)
