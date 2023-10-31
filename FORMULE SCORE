@@ -1,0 +1,7 @@
+COLONNE SCORE :
+formule :
+100*PRODUIT(1-(valabs(DELTA)/valTerre))
+
+df['mass moyenne']
+df['SCORE']=100*(1-(np.abs(df['']-VALTERRE)/VALTERRE))
+

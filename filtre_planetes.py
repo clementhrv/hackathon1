@@ -40,11 +40,9 @@ df1.drop(axis=1 , labels= columns1_inutiles, inplace = True)
 df1.drop(axis=1 , labels= c2_i, inplace = True)
 print(df1)
 print(df1.columns)
+
+
 """
-df1 = df1.set_index('Planet Name')
-
-
-
 #suppression des lignes sans données utiles
 df1 = df1[df1['Insolation Flux [Earth Flux]'].notna()]
 df1 = df1[df1['Equilibrium Temperature [K]'].notna()]
