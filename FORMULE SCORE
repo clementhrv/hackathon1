@@ -1,2 +1,7 @@
-L'idée était de trier le df des exoplanètes en retirant directement du df les 
-planètes dont ne serait-ce qu'un critère est hors de la fourchette d'habitabilité
+COLONNE SCORE :
+formule :
+100*PRODUIT(1-(valabs(DELTA)/valTerre))
+
+df['mass moyenne']
+df['SCORE']=100*(1-(np.abs(df['']-VALTERRE)/VALTERRE))
+
