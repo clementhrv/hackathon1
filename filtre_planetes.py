@@ -11,5 +11,8 @@ columns1 = ['Planet Name','Host Name', 'Defaull Parameter Set', 'Number of Stars
 
 df1 = df1.set_index('Planete Name')
 
-df1.drop
+df1.drop(columns = [''])
 
+#suppression des lignes sans données utiles
+df1 = df1[df1['Insolation Flux [Earth Flux]'].notna()]
+df1 = df1[df1['Equilibrium Temperature [K]'].notna()]
