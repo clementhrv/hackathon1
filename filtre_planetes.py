@@ -11,7 +11,7 @@ df2 = pd.read_csv('cumulative_2023.10.31_07.12.57.csv', skiprows=90)
 ​
 Clement HERVE
 ​
-columns1 = ['Planet Name','Host Name', 'Default Parameter Set', 'Number of Stars','Number of Planets','Discovery Method','Discovery Year','Solution Type','Controversial Flag','Planetary Parameter Reference','Orbital Period','Orbit Semi-Major Axis','Planet Radius [Earth Radius]','Planet Radius [Jupiter Radius]','Planet Mass or Mass*sin(i) [Earth Mass]','Planet Mass or Mass*sin(i) [Jupiter Mass]','Planet Mass or Mass*sin(i) Provenance','Eccentricity','Insolation Flux','Equilibrium Temperature','Data Show Transit Timing Variations','Stellar Parameter Reference','Spectral Type','Stellar Effective Temperature','Stellar Radius ','Stellar Mass','Stellar Metallicity','Stellar Metallicity Ratio','Stellar Surface Gravity']
+columns1 = ['Planet Name','Host Name', 'Default Parameter Set', 'Number of Stars','Number of Planets','Discovery Method','Discovery Year','Solution Type','Controversial Flag','Planetary Parameter Reference','Orbital Period','Orbit Semi-Major Axis','Planet Radius [Earth Radius]','Planet Radius [Jupiter Radius]','Planet Mass or Mass*sin(i) [Earth Mass]','Planet Mass or Mass*sin(i) [Jupiter Mass]','Planet Mass or Mass*sin(i) Provenance','Eccentricity','Insolation Flux','Equilibrium Temperature','Data Show Transit Timing Variations','Stellar Parameter Reference','Spectral Type','Stellar Effective Temperature','Stellar Radius ','Stellar Mass','Stellar Metallicity','Stellar Metallicity Ratio','Stellar Surface Gravity','System Parameter Reference','RA','Dec','Distance','V Magnitude','Ks Magnitude','Gaia Magnitude','Date of last Update','Planetary Parameter Reference Publication Date','Release Date']
 columns1_inutiles = []
 
 
