@@ -1,29 +1,31 @@
 2 Présence de carbone 
 
-2 Présence d'eau liquide : température optimale entre 20° et 40° / sinon entre 0 et 80°
+2 Présence d'eau liquide : température optimale entre 20° et 40° / sinon entre 0 et 80°    TERRE : 15°
 
 1,25 pression : similaire à la terre
 
 1 masse  : minimale d'une planète pour qu'elle soit habitable se situe quelque part entre celle de Mars et celle de la Terre
 
-            masse max : 10 fois la masse de la planète 
+            masse max : 10 fois la masse de la planète   
+
+            TERRE : 5,972 × 10^24 kg
 
 
-1 Distance à l'étoile : 0,9 et 1,5 UA de l'étoile hôte
+1 Distance à l'étoile : 0,9 et 1,5 UA de l'étoile hôte      
 
 
 0,5 Orbite et rotation :
 
-    Jour < 2 semaines terrestres
+    Jour < 2 semaines terrestres            TERRE : 1jour terrestre
 
-0,5 Excentricité : min 0,067 - max 0,1
+0,5 Excentricité : min 0,0167 - max 0,1     TERRE : 0,0167
 
 
-1,5 Seuil minimal de 5% d'oxygène
+1,5 Seuil minimal de 5% d'oxygène :    TERRE : 20%
 
-0,5 gravité
+0,5 gravité                             TERRE : 9,807
 
-0,5 flux solaire : 200W/m2 jusqu'à 1000 W/m2
+0,5 flux solaire : 200W/m2 jusqu'à 1000 W/m2    TERRE : 390
 
 
 
