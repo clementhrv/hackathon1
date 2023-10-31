@@ -1,0 +1,5 @@
+Le problème vient de la table de données qu'on télécharge : le df en .csv reçu
+a une forme qui met le nom des colonnes en commentaires, donc on n'a pas accés aux noms des colonnes qui sont bcp trop nombreuses 
+donc le traitement est beaucoup trop compliqué et trop long. Donc on cherche une 
+solution astucieuse depuis un  moment mais malgré l'aide d'un professeur cela n'aboutit pas. 
+On s'arrache les cheveux.
